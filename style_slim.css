@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1000px) {
+
+    .display-text-0 {
+        color: blue;
+        z-index: 5;
+    }
+
+    .mode {
+        display: block;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        transform: rotateZ(180deg);
+        z-index: 6;
+    }
+
+    .mode h2 {
+        font-size: 35px;
+        font-weight: bold;
+        color:white;
+    }
+
+    .wrapper{
+        
+        overflow: scroll;
+    }
+
+    .top-row {
+        margin-top: 30px;
+    }
+
+    /* .black-box {
+        height: 300px;
+        width:50%
+    } */
+
+    .black-box {
+        position: relative;
+        overflow: hidden;
+        width: 50%;
+        height: 3em;
+        float: left;
+        z-index: 3;
+    }
+
+    .black-box:hover {
+        height: 500px;
+    }
+
+    .right {
+        float:right
+    }
+
+    .abroad {
+        top: -4.5%;
+        left: -120%;
+    }
+
+    .no-signal {
+        top: -45%;
+        left: -75%;
+    }
+    .black-box:hover .no-signal {
+        top: -45%;
+        left: -75%;
+        height:auto;
+    }
+
+    .rev {
+        width: 180%;
+        top: -445%;
+        left: -25%;
+    }
+
+    .black-box:hover .rev {
+        height:130%;
+        top: -25%;
+    }
+
+    .syjuco {
+        top: -45%;
+    }
+    .black-box:hover .syjuco {
+        left: -30%;
+    }
+
+    .virgil {
+        left: -35%;
+    }
+
+    .pink-cover {
+        top: 0%;
+        left: -26%;
+        width: 150%;
+        height: auto;
+    }
+
+    .black-box:hover .pink-cover {
+        height:80%;
+        width:auto;
+        left:-25%;
+    }
+
+    .noise {
+        width: 200%;
+        height: auto;
+    }
+
+    .mars {
+        top: -15%;
+    }
+    .black-box:hover .mars {
+        top: -1%;
+        height:500px;
+    }
+
+    .times-sq {
+        width: 100%;
+        top: -550%;
+    }
+    .black-box:hover .times-sq {
+        height: 100%;
+        top: 0%;
+    }
+
+
+    .red-dead {
+        width: 100%;
+        top: -470%;
+    }
+
+    .black-box:hover .red-dead {
+        top: -30%;
+    }
+
+    .score {
+        width: 160%;
+        left: -5%;
+        top: -44%;
+    }
+
+    .black-box:hover .score {
+        height: 100%;
+        left: -5%;
+        top: -5%;
+
+    }
+
+    .seats {
+        width: 110%;
+        top: -910%;
+    }
+    .black-box:hover .seats {
+        top: -50%;
+    }
+}

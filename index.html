@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style_slim.css" />
     <title>get wise.</title>
     <!-- NEED TO ADD -->
     <!-- HIGHLIGHT SPECIFIC WORD COMBOS -->
@@ -15,12 +16,18 @@
 </head>
 
 <body>
+    <div class="mode">
+        <h2>*training wheels program</h2>
+    </div>
     <div class="wrapper">
-        <div class="black-box">
+        <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br />
+        <div class="black-box top-row">
             <img class="rev" data-insp="the revolution" src="images/revolution.jpg" alt="Devin Kenny"/>
         </div>
         
-        <div class="black-box">
+        <div class="black-box top-row right">
             <img class="syjuco" data-insp="hide" src="images/syjuco.jpg" alt="Stephanie Syjuco"/>
         </div>
 
@@ -28,7 +35,7 @@
             <img class="no-signal" data-insp="disconnect" src="images/no-signal.jpg" alt="Ed Panar" />
         </div>
     
-        <div class="black-box">
+        <div class="black-box right">
             <img class="abroad" data-insp="the strings" src="images/abroad.jpg" alt="Nico Stinghe" />
         </div>
 
@@ -36,7 +43,7 @@
             <img class="pink-cover" data-insp="the game" src="images/pink-cover.jpg" alt="Roza Terenzi" />
         </div>
 
-        <div class="black-box">
+        <div class="black-box right">
             <img class="virgil" data-insp="redesign" src="images/virgil.jpg" alt="Virgil Abloh"/>
         </div>
 
@@ -44,7 +51,7 @@
             <img class="noise" data-insp="distort" src="images/noise.jpg" alt="Roman Driss"/>
         </div>
 
-        <div class="black-box">
+        <div class="black-box right">
             <img class="mars" data-insp="the news" src="images/mars.jpg" alt="Mars Curiosity" />
         </div>
     
@@ -52,7 +59,7 @@
             <img class="red-dead" data-insp="the bounty" src="images/red-dead.jpg" alt="Red Dead Dedemption" />
         </div>
 
-        <div class="black-box">
+        <div class="black-box right">
             <img class="times-sq" data-insp="share" src="images/times-sq.jpeg" alt="Roman Driss" />
         </div>
         
@@ -60,7 +67,7 @@
             <img class="score" data-insp="score" src="images/score.png" alt="Miles Davis" />
         </div>
 
-        <div class="black-box">
+        <div class="black-box right">
             <img class="seats" data-insp="the story" src="images/seats.jpg" alt="Dirk Braeckman" />
         </div>
         
@@ -76,7 +83,15 @@
         </div>
         <div class="display-text-270">
         </div> -->
-
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br />
     </div>
 
 
@@ -90,8 +105,8 @@
             $(".display-text-0").html(startTextHH)
             // $(".display-text").html(startText.repeat(20))
 
-            // $(".black-box").mouseenter(function(){
-            $(".black-box").click(function(){
+            $(".black-box").mouseenter(function(){
+            // $(".black-box").click(function(){
                 let tag = $(this).children("img").attr("data-insp")
                 let count = $(".display-text-0").text().split(" ").length
                 let error = "no time left "
@@ -106,7 +121,7 @@
             })
 
             $(document.body).dblclick(function(){
-                $(".display-text-0").html(startTextHH).css("color","white")
+                $(".display-text-0").html(startTextHH)
                 // $("img").css("filter","none")
 
             })

@@ -4,6 +4,10 @@ body {
     font-family: Helvetica, sans-serif
 }
 
+.mode {
+    display: none;
+}
+
 .black-box {
     position: relative;
     overflow: hidden;
@@ -11,6 +15,7 @@ body {
     height: 500px;
     float: left;
 }
+
 
 img {
     position: absolute;
@@ -91,10 +96,3 @@ img:hover{
     padding: 1px;
 }
 
-/* @media only screen and (max-width: 768px){
-
-    img {
-        height: 100%;
-        width:auto;
-    }
-} */
