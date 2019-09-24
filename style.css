@@ -15,6 +15,11 @@ body {
 img {
     position: absolute;
     /* filter: hue-rotate(130deg) */
+    opacity: 0.8;
+    transition: opacity 0.8s;
+}
+img:hover{
+    opacity: 1;
 }
 
 

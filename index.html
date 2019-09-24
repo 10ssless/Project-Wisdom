@@ -85,7 +85,8 @@
             $(".display-text-0").html(startTextHH)
             // $(".display-text").html(startText.repeat(20))
 
-            $(".black-box").mouseenter(function(){
+            // $(".black-box").mouseenter(function(){
+            $(".black-box").click(function(){
                 let tag = $(this).children("img").attr("data-insp")
                 let count = $(".display-text-0").text().split(" ").length
                 let error = "no time left "
