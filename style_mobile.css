@@ -53,27 +53,25 @@
     }
 
     .abroad {
-        top: -15%;
-        left: -500%;
-    }
-
-    .black-box:hover .abroad {
-
+        width:220%;
+        top: 0%;
+        left: -50%;
     }
 
     .no-signal {
-        top: -45%;
-        left: -75%;
+        width:170%;
+        top: -115%;
+        left: -15%;
     }
     .black-box:hover .no-signal {
-        top: -65%;
-        left: -300%;
+        top: 0%;
+        left: -30%;
         height:auto;
     }
 
     .rev {
         width: 180%;
-        top: -445%;
+        top: -125%;
         left: -25%;
     }
 
@@ -93,20 +91,20 @@
     }
 
     .virgil {
-        left: -35%;
+        width:250%;
+        left: -15%;
     }
 
     .pink-cover {
         top: 0%;
-        left: -26%;
-        width: 150%;
+        left: -36%;
+        width: 250%;
         height: auto;
     }
 
     .black-box:hover .pink-cover {
-        height:80%;
-        width:auto;
-        left:-25%;
+        height:94%;
+        left:-36%;
     }
 
     .noise {
