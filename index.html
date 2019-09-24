@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>wisdom cums</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="black-box">
+            <img class="rev" data-insp="the revolution" src="images/revolution.jpg" alt="Devin Kenny"/>
+        </div>
+        
+        <div class="black-box">
+            <img class="syjuco" data-insp="hide" src="images/syjuco.jpg" alt="Stephanie Syjuco"/>
+        </div>
+
+        <div class="black-box">
+            <img class="no-signal" data-insp="disconnect" src="images/no-signal.jpg" alt="Ed Panar" />
+        </div>
+    
+        <div class="black-box">
+            <img class="abroad" data-insp="the strings" src="images/abroad.jpg" alt="Nico Stinghe" />
+        </div>
+
+        <div class="black-box">
+            <img class="pink-cover" data-insp="the game" src="images/pink-cover.jpg" alt="Roza Terenzi" />
+        </div>
+
+        <div class="black-box">
+            <img class="virgil" data-insp="redesign" src="images/virgil.jpg" alt="Virgil Abloh"/>
+        </div>
+
+        <div class="black-box">
+            <img class="noise" data-insp="distort" src="images/noise.jpg" alt="Roman Driss"/>
+        </div>
+
+        <div class="black-box">
+            <img class="mars" data-insp="the news" src="images/mars.jpg" alt="Mars Curiosity" />
+        </div>
+    
+        <div class="black-box">
+            <img class="red-dead" data-insp="the bounty" src="images/red-dead.jpg" alt="Red Dead Dedemption" />
+        </div>
+
+        <div class="black-box">
+            <img class="times-sq" data-insp="share" src="images/times-sq.jpeg" alt="Roman Driss" />
+        </div>
+        
+        <div class="black-box">
+            <img class="score" data-insp="score" src="images/score.png" alt="Miles Davis" />
+        </div>
+
+        <div class="black-box">
+            <img class="seats" data-insp="the story" src="images/seats.jpg" alt="Dirk Braeckman" />
+        </div>
+        
+        
+        
+
+
+        <div class="display-text-0">
+        </div>
+        <!-- <div class="display-text-90">
+        </div>
+        <div class="display-text-180">
+        </div>
+        <div class="display-text-270">
+        </div> -->
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+        $(document).ready(function(){
+
+            let startText = "hide the revolution disconnect the strings redesign the game distort the news share the bounty "
+            let startTextHH = "hide the revolution disconnect the strings redesign the game distort the news share the bounty hide the revolution disconnect the strings redesign the game distort the news "
+            $(".display-text-0").html(startTextHH)
+            // $(".display-text").html(startText.repeat(20))
+
+            $(".black-box").mouseenter(function(){
+                let tag = $(this).children("img").attr("data-insp")
+                let count = $(".display-text-0").text().split(" ").length
+                let error = "no time left "
+                console.log(count)
+                if(count<=621){
+                    $(".display-text-0").append(tag+" ")
+                } else {
+                    let msg = $("<span>").text(error.repeat(320)).css("color","red").css("font-size","20px")
+                    $(".display-text-0").append(msg)
+                    // $("img").css("filter","grayscale(100%)")
+                }
+            })
+
+            $(document.body).dblclick(function(){
+                $(".display-text-0").html(startTextHH).css("color","white")
+                // $("img").css("filter","none")
+
+            })
+
+        })
+    
+    
+    </script>
+</body>
+
+</html>

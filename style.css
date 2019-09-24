@@ -1,0 +1,95 @@
+body {
+    background: black;
+    padding: 12px;
+    font-family: Helvetica, sans-serif
+}
+
+.black-box {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+img {
+    position: absolute;
+    /* filter: hue-rotate(130deg) */
+}
+
+
+.abroad {
+    top: -4.5%;
+    left: -50%;
+}
+
+.no-signal {
+    top: -25%;
+    left: -5%;
+}
+
+.rev {
+    top: -25%;
+    left: -15%;
+}
+
+.syjuco {
+    top: -45%;
+}
+
+.virgil {
+    left: -15%;
+}
+
+.pink-cover {
+    top: 0%;
+    left: -5%;
+    height: 100%;
+}
+
+.noise {
+    width: 200%;
+    height: auto;
+}
+
+.mars {
+    top: -5%;
+}
+
+.times-sq {
+    width: 100%;
+    top: -30%;
+}
+
+.red-dead {
+    width: 100%;
+    top: -70%;
+}
+
+.score {
+    width:160%;
+    left:-5%;
+    top:-44%;
+}
+
+.seats{
+    width:110%;
+    top:-110%;
+}
+
+.display-text-0 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: white;
+    text-transform: uppercase;
+    padding: 1px;
+}
+
+/* @media only screen and (max-width: 768px){
+
+    img {
+        height: 100%;
+        width:auto;
+    }
+} */
