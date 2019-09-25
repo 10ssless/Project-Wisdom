@@ -103,12 +103,17 @@
 
             let startText = "hide the revolution disconnect the strings redesign the game distort the news share the bounty "
             let startTextHH = "hide the revolution disconnect the strings redesign the game distort the news share the bounty score the story hide the revolution disconnect the strings redesign the game "
-            $(".display-text-0").html(startTextHH)
+            $(".display-text-0").html(startText)
             // $(".display-text").html(startText.repeat(20))
 
-
+            let count = 0;
             let interval = setInterval(()=>{
-                $(".mode").fadeToggle(0)
+                if(count%5==0){
+                    $(".mode").fadeToggle(10).fadeToggle(10).fadeToggle(10).fadeToggle(10).delay(100).fadeToggle(10).fadeToggle(10).fadeToggle(10).delay(200).fadeToggle(10).fadeToggle(10)
+                } else {
+                    $(".mode").fadeToggle(0)
+                }
+                count++
             },3000)
 
             $(".black-box").mouseenter(function(){

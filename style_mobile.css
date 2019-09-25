@@ -21,6 +21,10 @@
         color:white;
     }
 
+    .free-text {
+        font-size:8px;
+    }
+
     .wrapper{
         
         overflow: scroll;
