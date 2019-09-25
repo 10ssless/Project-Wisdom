@@ -122,20 +122,20 @@
                 let count = $(".display-text-0").text().split(" ").length
                 let error = "no time left"
                 console.log(count)
-                if(count<=226){
+                if(count<=126){
                     let msg = $("<span>").text(tag).addClass("free-text")
-                    msg.css("top",`${Math.floor(Math.random()*50)+50}%`).css("left",`${Math.floor(Math.random()*100)}%`)
+                    msg.css("top",`${Math.floor(Math.random()*100)+100}%`).css("left",`${Math.floor(Math.random()*100)}%`)
                     msg.css("transform",`rotateX(${Math.floor(Math.random()*360)}deg)`).css("transform",`rotateY(${Math.floor(Math.random()*360)}deg)`)
                     msg.css("color",`rgba(255, 0, 0,${Math.floor(Math.random()*100)/100})`)
                     $(".wrapper").append(msg)
                     $(".display-text-0").append(tag+" ")
                 } else {
-                    $(".display-text-0").fadeToggle(500).fadeToggle(500)
+                    $(".display-text-0").html(startText)
                 }
             })
 
             $(document.body).dblclick(function(){
-                $(".display-text-0").html(startTextHH)
+                $(".display-text-0").html(startText)
                 // $("img").css("filter","none")
 
             })
