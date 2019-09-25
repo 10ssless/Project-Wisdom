@@ -126,7 +126,7 @@
                     let msg = $("<span>").text(tag).addClass("free-text")
                     msg.css("top",`${Math.floor(Math.random()*200)+150}%`).css("left",`${Math.floor(Math.random()*100)}%`)
                     msg.css("transform",`rotateX(${Math.floor(Math.random()*360)}deg)`).css("transform",`rotateY(${Math.floor(Math.random()*360)}deg)`)
-                    msg.css("color",`rgba(255, 0, 0,${Math.floor(Math.random()*100)/100})`)
+                    msg.css("color",`rgba(0, 0, 0,${Math.floor(Math.random()*100)/100})`)
                     $(".wrapper").append(msg)
                     $(".display-text-0").append(tag+" ")
                 } else {
