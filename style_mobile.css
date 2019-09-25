@@ -5,7 +5,8 @@
     } */
 
     .display-text-0 {
-        color: rgb(255, 0, 234);
+        /* color: rgb(255, 0, 234); */
+        color: rgb(13, 0, 255);
         z-index: 5;
         font-size:12px;
     }
