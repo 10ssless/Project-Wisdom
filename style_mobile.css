@@ -1,4 +1,8 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
+
+    /* body{
+        background: rgb(221, 221, 221);
+    } */
 
     .display-text-0 {
         color: rgb(255, 0, 234);
