@@ -115,14 +115,18 @@
             // $(".black-box").click(function(){
                 let tag = $(this).children("img").attr("data-insp")
                 let count = $(".display-text-0").text().split(" ").length
-                let error = "no time left "
+                let error = "no time left"
                 console.log(count)
-                if(count<=621){
-                    $(".display-text-0").append(tag+" ")
+                if(count<=1321){
+                    
+                    let msg = $("<span>").text(tag).addClass("free-text")
+                    msg.css("top",`${Math.floor(Math.random()*100)}%`).css("left",`${Math.floor(Math.random()*100)}%`)
+                    msg.css("transform",`rotateX(${Math.floor(Math.random()*360)}deg)`)
+                    msg.css("color",`rgb(255, 0, 0,${Math.floor(Math.random()*100)/100})`)
+                    $(".wrapper").append(msg)
+                    // $(".display-text-0").append(tag+" ")
                 } else {
-                    let msg = $("<span>").text(error.repeat(320)).css("color","red").css("font-size","20px")
-                    $(".display-text-0").append(msg)
-                    // $("img").css("filter","grayscale(100%)")
+                    // // $("img").css("filter","grayscale(100%)")
                 }
             })
 

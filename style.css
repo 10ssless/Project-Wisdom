@@ -96,3 +96,11 @@ img:hover{
     padding: 1px;
 }
 
+.free-text {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    /* transform: rotateZ(30deg); */
+    z-index:5;
+    color: rgb(255, 0, 0);
+}
