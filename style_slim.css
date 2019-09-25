@@ -3,6 +3,7 @@
     .display-text-0 {
         color: blue;
         z-index: 5;
+        font-size:20px;
     }
 
     .mode {
